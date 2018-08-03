@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pruebas con javascript</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  <!--  <style media="screen">
+      .box{
+        width: 250px;
+        height: 250px;
+        float: left;
+        margin: 20px;
+      }
+      .dashed{
+        border: 3px dashed black;
+        margin: 20px;
+        padding: 5px;
+      }
+    </style> -->
+
+  </head>
+  <body>
+    <!-- INSTRUCCIONES DEL EJERCICIO
+      1.Crear un formulario con 3 campos: Nombre, apellidos y edad.
+      2.Poner un boton para enviar un formulario, envento submit.
+      3.Mostrar los datos en pantalla
+    -->
+    <h1>Formulario de inscripcion</h1>
+    <div class="box">
+      <p>
+        <form class="" action="#" method="post" id="form" onsubmit="return false;">
+          <p>
+            <label for="nombre">Nombre:</label> <br />
+            <input type="text" name="nombre" value="" id="nombre">
+          </p>
+          <p>
+            <label for="apellidos">Apellidos:</label> <br />
+            <input type="text" name="apellidos" value="" id="apellidos">
+          </p>
+        <p>
+          <label for="edad">Edad:</label> <br />
+          <input type="text" name="edad" value="" id="edad">
+        </p>
+          <p>
+            <input type="submit" value="Enviar" id="submit" />
+          </p>
+        </form>
+      </p>
+    </div>
+    <div class="box dashed" id="wheredata">
+      <h3>Información del usuario</h3>
+      <hr>
+      <p id="mostrarNombre">
+        Nombre: <span ></span>
+      </p>
+      <p id="mostrarApellidos">
+        Apellidos: <span ></span>
+      </p>
+      <p id="mostrarEdad">
+        Edad: <span id=""></span>
+      </p>
+    </div>
+  </body>
+  <script type="text/javascript" src="js.js">
+
+  </script>
+</html>
